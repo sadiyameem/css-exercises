@@ -8,26 +8,26 @@ body {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
+.para.small-para { /* changed */
+  font-size: 16px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
+.para { /* changed */
+  font-size: 25px;
 }
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+
+#confirm-button { /* changed */
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
 .child {
   color: rgb(0, 0, 0);
@@ -40,3 +40,6 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+/* Note
+Have to bold "text child" class */
