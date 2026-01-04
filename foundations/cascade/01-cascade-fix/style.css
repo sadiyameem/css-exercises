@@ -8,13 +8,14 @@ body {
   font-weight: 800;
 }
 
-.para.small-para { /* changed */
-  font-size: 16px;
+.para.small-para { /* changed or added second text */
+  font-size: 18px;
   font-weight: 800;
 }
 
-.para { /* changed */
+ .para { /* changed or added top text */
   font-size: 25px;
+  font-weight: bolder;
 }
 
 .button {
@@ -23,13 +24,13 @@ body {
   font-size: 20px;
 }
 
-#confirm-button { /* changed */
+#confirm-button { /* changed or added */
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
-.child {
+ .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -41,5 +42,7 @@ div.text {
   font-weight: 100;
 }
 
-/* Note
-Have to bold "text child" class */
+div.child { /* added to the "text child" class */
+  font-weight: 800;
+  font-size: 14px;
+}
